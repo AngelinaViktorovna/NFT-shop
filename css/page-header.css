@@ -1,0 +1,124 @@
+.page-header {
+  color: #ffffff;
+}
+
+.page-header__info-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343444;
+  font-size: 14px;
+}
+
+.page-header__info-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 41px;
+  padding-bottom: 47px;
+  padding-left: 120px;
+}
+
+.page-header__info-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.page-header__img-mail {
+  padding-right: 6px;
+}
+
+.page-header__img-phone {
+  padding-right: 7px;
+}
+
+.page-header__info-social-media {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding-top: 43px;
+  padding-bottom: 38px;
+  padding-right: 28px;
+}
+
+.page-header__info-bottom {
+  display: flex;
+  justify-content: space-between;
+  background: #06060e;
+  padding-top: 59px;
+  padding-bottom: 68px;
+  padding-left: 24px;
+}
+
+.pade-header__nav-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-size: 18px;
+  gap: 19px;
+}
+
+.page-header__wrapper-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__search {
+  /* position: relative; */
+  background: #17171f;
+  border: 1px solid #33333a;
+  border-radius: 50px;
+  /* z-index: 1; */
+  /* width: 224px; */
+  width: 200px;
+  height: 56px;
+  /* padding-right: 34px; */
+  border: none;
+  padding: none;
+  appearance: none;
+  /* padding-top: 20px; */
+  padding-left: 20px;
+  color: #6588a1;
+}
+
+.page-header__search:focus {
+  outline: none;
+}
+
+.page-header__search::-ms-reveal {
+  display: none;
+  /* width: 0;
+  height: 0; */
+}
+
+.page-header__search-button {
+  background: #17171f;
+  border-radius: 50px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-right: 27px;
+  position: absolute;
+  left: 553px;
+  top: 195px;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+.pade-header__botton-button {
+  background: #9a40f4;
+  border: 1px solid #33333a;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 41px;
+  padding-right: 41px;
+  margin-right: 27px;
+  cursor: pointer;
+}
+
+.pade-header__botton-button:hover {
+  background-color: #9a40f48f;
+  transition: background-color 0.3s;
+}

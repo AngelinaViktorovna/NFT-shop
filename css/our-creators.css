@@ -1,0 +1,145 @@
+.our-creators {
+  background: #0d0d12;
+  padding-top: 90px;
+  padding-bottom: 116px;
+}
+
+.our-creators__title {
+  color: #fff;
+  font-size: 42px;
+  line-height: 51px;
+  padding-left: 139px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.our-creators__description {
+  font-size: 18px;
+  line-height: 22px;
+  color: #989881;
+  padding-left: 139px;
+  padding-bottom: 75px;
+  margin: 0;
+}
+
+.our-creators__list {
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.our-creators__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #030303;
+  border: 1px solid #716951;
+  border-radius: 25px;
+  padding-top: 33px;
+  padding-left: 28px;
+  padding-right: 27px;
+  list-style-type: none;
+}
+
+.our-creators__wrapper-img {
+  display: flex;
+}
+
+.our-creators__wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 107px);
+  grid-template-rows: 72px 103px;
+  grid-column-gap: 16px;
+  grid-row-gap: 14px;
+}
+
+.our-creators__img-box1 {
+  padding-right: 23px;
+}
+
+.our-creators__img-box2 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.our-creators__img-box3 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.our-creators__img-box4 {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+/* 
+.our-creators__wrapper-img {
+  display: grid;
+  grid-template-columns: 199px 107px 107px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 99px) repeat(2, 107px);
+  grid-template-rows: repeat(2, 94px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.our-creators__img-box1 {
+  grid-area: 1 / 1 / 3 / 3;
+}
+.our-creators__img-box2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.our-creators__img-box3 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.our-creators__img-box4 {
+  grid-area: 2 / 3 / 3 / 5;
+} */
+
+.our-creators__img {
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+
+.our-creators__img-description {
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  max-width: 90%;
+  padding-bottom: 9px;
+  padding-right: 28px;
+  margin: 0;
+}
+
+.our-creators__img-description2 {
+  padding-right: 140px;
+}
+
+.our-creators__wrapper-info-creators {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.our-creators__img-avatar {
+  display: flex;
+  padding-right: 7px;
+  padding-bottom: 37px;
+}
+
+.our-crearors__name {
+  display: flex;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-bottom: 4px;
+
+  margin: 0;
+}
+
+.our-crearors__creator {
+  display: flex;
+  font-size: 14px;
+  line-height: 17px;
+  color: #90a0a8;
+  margin: 0;
+}

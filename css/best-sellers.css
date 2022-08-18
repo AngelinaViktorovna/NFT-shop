@@ -1,0 +1,113 @@
+.best-sellers {
+  background: #030303;
+  padding-left: 139px;
+  padding-right: 142px;
+  padding-top: 86px;
+  padding-bottom: 90px;
+}
+
+.best-sellers__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.best-sellers__title {
+  display: flex;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.best-sellers__description {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  font-size: 18px;
+  line-height: 22px;
+  color: #989881;
+  padding-top: 18px;
+  margin: 0;
+}
+
+.best-sellers__btn-top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #b75cc6;
+  border: 2px solid #b75cc6;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 19px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-bottom: 59px;
+  margin-top: 31px;
+  cursor: pointer;
+}
+
+.best-sellers__btn-top:hover {
+  background-color: #b75cc6c2;
+  transition: background-color 0.3s;
+}
+
+.best-sellers__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 23px;
+}
+
+.best-sellers__item {
+  border: 1px solid #231a4b;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 174px;
+  height: 255px;
+}
+
+.best-sellers__img {
+  padding-top: 27px;
+  padding-bottom: 23px;
+  width: 100px;
+  height: 100px;
+}
+
+.best-sellers__name {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+.best-sellers__creator {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.best-sellers__btn-bottom {
+  font-size: 14px;
+  color: #ffffff;
+  background: #030303;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.best-sellers__btn-bottom:hover {
+  background-color: #5c5656b3;
+  transition: background-color 0.3s;
+}

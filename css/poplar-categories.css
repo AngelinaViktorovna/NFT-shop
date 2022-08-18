@@ -1,0 +1,98 @@
+.poplar-categories {
+  background: #232237;
+  background-image: url(../img/background-PoplarCategories.png);
+  background-size: 1171px 480px;
+  background-repeat: no-repeat;
+  background-position-y: 80px;
+  background-position-x: 127px;
+  padding-top: 148px;
+  padding-left: 228px;
+  padding-right: 200px;
+  padding-bottom: 113px;
+}
+
+.poplar-categories__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.poplar-categories__title {
+  display: flex;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ffffff;
+  padding-bottom: 22px;
+  margin: 0;
+}
+
+.poplar-categories__description {
+  display: flex;
+  font-size: 18px;
+  line-height: 22px;
+  color: #989881;
+  margin: 0;
+}
+
+.poplar-categories__btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #b75cc6;
+  border: 2px solid #b75cc6;
+  border-radius: 50px;
+  color: #ffffff;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 31px;
+  padding-right: 31px;
+  margin-bottom: 59px;
+  margin-top: 31px;
+  cursor: pointer;
+}
+
+.poplar-categories__btn:hover {
+  background-color: #b75cc6c2;
+  transition: background-color 0.3s;
+}
+
+.poplar-categories__list {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-column-gap: 85px;
+  grid-row-gap: 42px;
+}
+
+.poplar-categories__item {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.poplar-categories__img {
+  display: flex;
+  width: 73px;
+  height: 73px;
+  padding-right: 25px;
+}
+
+.poplar-categories__name {
+  display: flex;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.poplar-categories__name-description {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #909079;
+  /* max-width: 55%; */
+  margin: 0;
+}
