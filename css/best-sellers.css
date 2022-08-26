@@ -1,9 +1,6 @@
 .best-sellers {
   background: #030303;
-  padding-left: 139px;
-  padding-right: 142px;
-  padding-top: 86px;
-  padding-bottom: 90px;
+  padding: 86px 142px 90px 139px;
 }
 
 .best-sellers__header {
@@ -12,7 +9,6 @@
 }
 
 .best-sellers__title {
-  display: flex;
   font-size: 42px;
   line-height: 51px;
   color: #ffffff;
@@ -39,10 +35,7 @@
   border-radius: 50px;
   font-size: 16px;
   color: #ffffff;
-  padding-top: 19px;
-  padding-bottom: 18px;
-  padding-left: 36px;
-  padding-right: 36px;
+  padding: 19px 36px 18px;
   margin-bottom: 59px;
   margin-top: 31px;
   cursor: pointer;
@@ -57,6 +50,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: center;
   gap: 23px;
 }
 
@@ -100,10 +94,7 @@
   background: #030303;
   border: 3px solid #ffffff;
   border-radius: 25px;
-  padding-left: 21px;
-  padding-right: 21px;
-  padding-top: 6px;
-  padding-bottom: 8px;
+  padding: 6px 21px 8px;
   cursor: pointer;
 }
 

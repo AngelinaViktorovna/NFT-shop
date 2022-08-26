@@ -4,16 +4,14 @@
   background-size: 1171px 480px;
   background-repeat: no-repeat;
   background-position-y: 80px;
-  background-position-x: 127px;
-  padding-top: 148px;
-  padding-left: 228px;
-  padding-right: 200px;
-  padding-bottom: 113px;
+  background-position-x: 50%;
+  padding: 148px 200px 113px 228px;
 }
 
 .poplar-categories__header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 400px;
 }
 
 .poplar-categories__title {
@@ -42,10 +40,7 @@
   border: 2px solid #b75cc6;
   border-radius: 50px;
   color: #ffffff;
-  padding-top: 19px;
-  padding-bottom: 19px;
-  padding-left: 31px;
-  padding-right: 31px;
+  padding: 19px 31px;
   margin-bottom: 59px;
   margin-top: 31px;
   cursor: pointer;
@@ -59,6 +54,7 @@
 .poplar-categories__list {
   padding: 0;
   display: grid;
+  justify-content: center;
   grid-template-columns: 280px 280px 280px;
   grid-column-gap: 85px;
   grid-row-gap: 42px;
